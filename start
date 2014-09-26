@@ -25,7 +25,7 @@ if [ ! "$(ls -A $DATADIR)" ]; then
   # cp /data/postgres/postgresql.conf $DATADIR/postgresql.conf
   chown -R postgres:postgres $DATADIR
 
-cat << EOF > /opt/json-to-xls/build/distributions/json-to-xls-1.0-SNAPSHOT/json-to-xls.yml
+cat << EOF > /opt/json-to-xls/build/install/json-to-xls/json-to-xls.yml
 apiDetailsFile: api.txt
 
 database:
